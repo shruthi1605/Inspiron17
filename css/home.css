@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Imprima');
+@import url('https://fonts.googleapis.com/css?family=Play:400,700');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.main-center
+{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	/*background: rgba(0, 0, 0,0.4);
+	border-radius: 1%;
+	box-shadow: 8px 8px 40px 15px black;*/
+}
+.ii
+	    	{
+	    		font-family: 'Aclonica', sans-serif;
+	    		text-transform: uppercase;
+	    		font-size: 120px !important;
+	    		font-weight: bold;
+	    		color: #edf3f7;
+	    		text-align: center;
+	    		margin-top: 15px;
+	    		/*background-image:url(../images/insp.jpg);
+	    		-webkit-background-clip: text;
+   				-webkit-text-fill-color: transparent;
+   				overflow: visible;*/
+	    	}
+.ins
+{
+	font-size: 40px !important;
+	font-family: 'Acme', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px 0;
+	color: #edf3f7;
+	letter-spacing: 5px;
+}
+.tpo
+{
+	margin-top: 50px!important;
+	
+	
+	
+	
+}
+.cog{
+	margin-top:50px!important;
+	
+	
+	
+}
+/*.cog
+{
+	margin-top: 30px!important;
+	margin-left:auto;
+	margin-right:auto;
+	
+}*/
+
+.tpo-small
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.dates
+{
+	text-align: center;
+	color: #C3D6D1;
+	font-family: 'Acme', sans-serif;
+	font-size: 28px !important; 
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+.top-menu
+{
+	margin-top: 5px;
+}
+.btn
+{
+	background:transparent;
+	border:none;
+	font-size: 15px;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase; 
+}
+.text {
+text-shadow: 0px 0 15px #fff;
+}
+.text {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+.sides
+{
+	position: absolute;
+	display: block;
+	z-index: 99;
+	background: rgba(0,0,0,0.3);
+}
+.down
+{
+	
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.5);
+
+}
+.down li
+{
+	padding: 5px;
+	margin: 5px;
+	
+}
+.down li a
+{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Acme', sans-serif;
+
+}
+.down li a:hover
+{
+	border:white solid 2px;
+}
+.snip1562 {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Acme', sans-serif;
+  display:block;
+  margin: 30px 40px;
+  font-size: 18px;
+  line-height: 1em;
+  letter-spacing: 4px;
+  
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  
+}
+.snip1562:hover
+{
+	text-decoration: none;
+	color: white;
+}
+.snip1562:before,
+.snip1562:after {
+  border-color: transparent;
+  
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1562:before {
+  border-color: #b1b1d6;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  left: -5px;
+  top: -5px;
+}
+
+.snip1562:after {
+  border-bottom-width: 2px;
+  border-color: #b1b1d6;
+  border-right-width: 2px;
+  bottom: -5px;
+  right: -5px;
+}
+
+.snip1535:hover:before,
+.snip1535.hover:before,
+.snip1535:hover:after,
+.snip1535.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+	.ii
+	{
+		font-size: 100px !important;
+	}
+	
+}
+@media screen and (max-width: 425px)
+{
+	.tpo
+	{
+
+	}
+	.ii
+	{
+		font-size: 66px !important;
+	}
+	.ins
+{
+	font-size: 20px!important;
+}
+	.dates
+	{
+		font-size: 18px!important;
+	}
+}
+@media screen and (max-width: 350px)
+{
+	.ii
+	{
+		font-size: 50px !important;
+	}
+}
+
+.plate {
+  width: 410px;
+  margin: 10% auto;
+}
+.shadow {
+  color: #fff;
+  
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 gray,
+    5px 5px 0 gray,
+    6px 6px 0 gray,
+    7px 7px 0 gray;
+  
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: 'Imprima', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 60px;
+  font-family: 'Allerta Stencil', sans-serif;
+	    		text-transform: uppercase;
+}

@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
+
+
+nav {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transform: translate3d(25px, -25px, 0);
+          transform: translate3d(25px, -25px, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  transition: -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  font-family: 'Alegreya Sans', sans-serif;
+  z-index: 999;
+}
+nav.open {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+nav.top-right {
+  top: -240px;
+  right: -240px;
+}
+
+.disc {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font: 25px Alegreya Sans, sans-serif;
+  line-height: 40px;
+  padding-top: 10px;
+  border-radius: 350px;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(0.5, 0.5, 0.5) rotate3d(0, 0, 1, 190deg);
+  pointer-events: none;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  transition: opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), opacity 0.5s;
+  transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+  color: black;
+}
+.disc div {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+
+}
+.open .disc {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.l1 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #2c3e50;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l1 {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l1:hover {
+  background: #040608;
+  color: #2c3e50;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l1:active {
+  background: #161f28;
+  color: #2c3e50;
+}
+.open .l1.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l2 {
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  background: #2c475f;
+  -webkit-transition-delay: 0.07143s;
+          transition-delay: 0.07143s;
+}
+.open .l2 {
+  -webkit-transition-delay: 0.07143s;
+          transition-delay: 0.07143s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l2:hover {
+  background: #04070a;
+  color: #2c475f;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l2:active {
+  background: #162430;
+  color: #2c475f;
+}
+.open .l2.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l3 {
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  background: #2b516e;
+  -webkit-transition-delay: 0.14286s;
+          transition-delay: 0.14286s;
+}
+.open .l3 {
+  -webkit-transition-delay: 0.14286s;
+          transition-delay: 0.14286s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l3:hover {
+  background: #04080b;
+  color: #2b516e;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l3:active {
+  background: #162937;
+  color: #2b516e;
+}
+.open .l3.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l4 {
+  top: 150px;
+  left: 150px;
+  right: 150px;
+  bottom: 150px;
+  background: #2b5a7d;
+  -webkit-transition-delay: 0.21429s;
+          transition-delay: 0.21429s;
+}
+.open .l4 {
+  -webkit-transition-delay: 0.21429s;
+          transition-delay: 0.21429s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l4:hover {
+  background: #04090d;
+  color: #2b5a7d;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l4:active {
+  background: #162d3f;
+  color: #2b5a7d;
+}
+.open .l4.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l5 {
+  top: 200px;
+  left: 200px;
+  right: 200px;
+  bottom: 200px;
+  background: #2a648c;
+  -webkit-transition-delay: 0.28571s;
+          transition-delay: 0.28571s;
+}
+.open .l5 {
+  -webkit-transition-delay: 0.28571s;
+          transition-delay: 0.28571s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l5:hover {
+  background: #040a0e;
+  color: #2a648c;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l5:active {
+  background: #153246;
+  color: #2a648c;
+}
+.open .l5.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l6 {
+  top: 250px;
+  left: 250px;
+  right: 250px;
+  bottom: 250px;
+  background: #2a6d9b;
+  -webkit-transition-delay: 0.35714s;
+          transition-delay: 0.35714s;
+}
+.open .l6 {
+  -webkit-transition-delay: 0.35714s;
+          transition-delay: 0.35714s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l6:hover {
+  background: #040b10;
+  color: #2a6d9b;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l6:active {
+  background: #15374e;
+  color: #2a6d9b;
+}
+.open .l6.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.l7 {
+  top: 300px;
+  left: 300px;
+  right: 300px;
+  bottom: 300px;
+  background: transparent!important;
+  color: white;
+  -webkit-transition-delay: 0.42857s;
+          transition-delay: 0.42857s;
+}
+.open .l7 {
+  background: #2977aa!important;
+  -webkit-transition-delay: 0.42857s;
+          transition-delay: 0.42857s;
+  -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+          transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 190deg);
+  opacity: 1;
+}
+.open .l7:hover {
+  background: #040c11!important;
+  color: #2977aa;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .l7:active {
+  background: #153c55;
+  color: #2977aa;
+}
+.open .l7.toggle {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+}
+
+.toggle {
+  line-height: 100px;
+  padding: 0;
+  width: 100px;
+  background: #2980b9;
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+  pointer-events: auto;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.open .toggle {
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+          transform: rotate3d(0, 0, 1, 0deg);
+}
+.toggle:hover {
+  background: #040d13;
+  color: #2980b9;
+}
+.toggle:active {
+  background: #15405d;
+  color: rgba(41, 128, 185, 0.5);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
+}
+@media screen and (max-width: 500px) 
+{
+    .l7
+    {
+      background: transparent;
+      color: white;
+    }
+    nav.top-right {
+  top: -280px;
+  right: -280px;
+}
+}
