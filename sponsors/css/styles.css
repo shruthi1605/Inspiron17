@@ -1,0 +1,92 @@
+html{
+	min-height: 100%;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+
+}
+
+
+body{
+	background: url("../images/bg1.jpg")center center/cover no-repeat;
+	height: 100%;
+	width: 100%;
+	
+	overflow-x: hidden !important;
+	
+}
+/*.water
+{
+	background-color: rgba(0,0,0,0.5);
+}*/
+
+img
+{ 
+   margin-bottom: 30px;
+   margin-left: 70px; 
+   overflow: hidden;
+}
+
+
+
+@media screen and (max-width:1440px and min-width:900px)
+{
+	img{
+		margin-left:100px !important;
+	}
+}
+
+@media screen and (max-width:768px)
+{
+	img{
+		margin-left:10px !important;
+	}
+}
+
+hr{
+	width: 50%;
+	color: black;
+	
+}
+h1{
+	color:white;
+	font-size: 80px !important;
+	text-transform: uppercase;
+}
+h3{
+	color:white;
+	font-size: 30px !important ;
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px)
+{
+	
+	nav.top-right {
+  
+  right: -280px!important;
+}
+}
+@media screen and (max-width:700px)
+{
+	nav.top-right {
+  top: -250px!important;
+  
+}
+}
+@media screen and (max-width:550px)
+{
+	nav.top-right {
+  top: -280px!important;
+ 
+}
+h1
+{
+	margin-top: 80px;
+}
+}
+@media screen and (max-width:375px)
+{
+	nav.top-right {
+  top: -280px!important;
+ right: -280px!important;
+}
